@@ -1,13 +1,272 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary-color: rgb(0,0,0);
+  --secondary-color: rgba(247, 242, 242, 0.829);
+  --tertiary-color: rgb(98, 76, 112);
+}
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-family: "Cabin", Helvetica, sans-serif;
+  box-sizing: border-box;
+  font-size: 18px;
 }
+/* start of navbar styling */
+#navbar {
+  background-image: linear-gradient(to right, rgb(198, 196, 199),var(--tertiary-color));
+  margin-bottom: 0;
+  font-size: 24px;
+}
+
+#navbarNav {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.navbar-nav a {
+  color: var(--secondary-color);
+}
+
+.navbar-nav a:hover {
+  font-size: 2rem;
+}
+/* end of navbar styling */
+
+/* start of styling of lhs column with vertical name */
+#name-bar {
+  display: block;
+  position: relative;
+  text-align: center;
+  line-height: 80%;
+  font-family: "Indie Flower";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* #name-bar::after {
+  content: ""; 
+  background-size: cover; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;    
+}   */
+#name-bar-after {
+  background-size: cover;
+  content: ""; 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  opacity: 1;
+}  
+
+#name {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 1;
+}
+
+/* bullet symbol between first and last name */
+#bullet {
+  font-size: 10px;
+}
+
+/* end of styling of lhs column with vertical name */
+
+/* headers for all pages */
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* padding added above container on each page */
+#about-me {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* start of styling about me page */
+#about-me-image {
+  padding: 20px;
+}
+
+#about-me-text {
+  padding: 20px;
+  text-align: left;
+}
+
+#about-me-image img {
+  max-height: 350px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px black;
+}
+
+#about-me-image img:hover {
+  opacity: 0.85;
+}
+/* end of styling about me page */
+
+/* padding added above container on skills, projects and hello page */
+#skills, #projects, #hello {
+  padding-top: 100px;
+}
+
+/* start of styling project page */
+#front-end, #back-end {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#front-end ul , #back-end ul {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-bot-img {
+  padding-top: 10px;
+}
+
+#project-image-1, #project-image-2, #project-image-3, #project-image-4, #project-image-5 {
+position: relative;
+width: 100%;
+}
+
+#project-image-1 img {
+  height: 300px;
+  object-fit: fill;
+  opacity: 0.8;
+  width: 100%;
+}
+
+#project-image-2 img, #project-image-3 img, #project-image-4 img, #project-image-5 img {
+  height: 145px;
+  object-fit: fill;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.project-text, .project-text-large {
+  position: absolute;
+  margin-top: 10px;
+  border: ridge 2px darkgray;
+  background-color: rgb(98, 76, 112);
+  text-align: center;
+  bottom: 8px;
+  left: 16px;
+  color: var(--secondary-color);
+}
+/* end of styling project page */
+
+/* start of styling say-hello page */
+.hello-form {
+  display: block;
+  padding: 2.5%;
+  width: 100%;
+  border: solid var(--tertiary-color) 3px;
+  box-shadow: 5px 10px;
+}
+
+.hello-form form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hello-fi {
+  border: 1px solid var(--primary-color);
+  border-radius: 15px;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: grey;
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: var(--secondary-color);
+}
+
+.hello-fi:focus {
+  background-color: rgb(255,255,255);
+  outline: none;
+  border: 3px solid var(--tertiary-color);
+}
+
+.hello-form label {
+  margin: 0 10px;
+}
+
+.hello-form button {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.hello-form button:hover {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+/* end of styling say-hello */
+
+footer {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* start of styling footer */
+#footer-col {
+  display: flex;
+  border-top: solid var(--tertiary-color) 2px;
+  text-align: center;
+}
+.fa-envelope, .fa-facebook , .fa-instagram, .fa-linkedin {
+  color: black;
+}
+/* end of styling footer */
+
+/* start of styling for media screen max-width of 600px */
+@media screen and (max-width:600px) {
+  
+  #about-me-image img {
+      max-height: 200px;
+  }
+  
+  #name-bar {
+      font-size: 30px;
+  } 
+  
+  #project-image-1 img, #project-image-2 img, #project-image-3 img, #project-image-4 img, #project-image-5 img {
+      height: 200px;
+  }
+}
+/* end of styling for media screen max-width of 600px */
+
+/* start of stylings for media screen max-width of 992px (matched with Bootstrap lg */ 
+@media screen and (max-width:992px) {
+
+  .project-top-img {
+      padding-top: 10px;
+  }
+
+  #project-image-1 img, #project-image-2 img, #project-image-3 img, #project-image-4 img, #project-image-5 img {
+      height: 200px;
+  }
+}
+/* end of stylings for media screen max-width of 992px (matched with Bootstrap lg */ 
+
+
