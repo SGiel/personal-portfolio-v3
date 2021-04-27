@@ -155,14 +155,27 @@ h1 {
   text-align: center;
 }
 .resume-btn {
-  color: var(--secondary-color);
-  background-color: var(--tertiary-color);
-  border-radius: 8px;
   height: 50px;
   width: 200px;
+  border-radius: 8px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: var(--tertiary-color);
+  margin: 0 auto;
+  padding: 10px;
 }
+
+.resume-btn a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.resume-btn a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
 .resume-btn:hover {
+  font-size: 1.1rem;
   height: 60px;
   width: 210px;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);

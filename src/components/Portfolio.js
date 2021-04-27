@@ -10,7 +10,6 @@ import projectImage2 from '../assets/images/visit-america-screenshot.png'
 import projectImage3 from '../assets/images/weather-dashboard-screenshot.png'
 import projectImage4 from '../assets/images/workday-scheduler-screenshot.png'
 import projectImage5 from '../assets/images/camper-van-screenshot.png'
-import { findRenderedComponentWithType } from 'react-dom/test-utils';
 
 
 function Portfolio() {

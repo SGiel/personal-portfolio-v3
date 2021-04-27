@@ -1,4 +1,6 @@
 import React from 'react';
+import resumePDF from '../assets/images/stephanie-resume.pdf'
+
 
 
 function Resume() {
@@ -31,7 +33,9 @@ function Resume() {
         </div>
       </div>
       <div className='resume-btn-wrapper'>
-        <button type='button' className='resume-btn'>Download Resume Here</button>
+        <div className='resume-btn'>
+          <a href={resumePDF} download>Download Resume Here</a>
+        </div>
       </div>
     </section>
   );
