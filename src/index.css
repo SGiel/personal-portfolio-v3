@@ -184,6 +184,7 @@ h1 {
   object-fit: fill;
   width: 100%;
   opacity: .5;
+  border: solid var(--tertiary-color) 1px;
 }
 
 .project-text {
