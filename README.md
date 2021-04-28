@@ -6,14 +6,21 @@
     <img src="https://img.shields.io/badge/-React-blue" />
 
 ## Assignment
-  This is my personal portfolio built as a single page application. 
+  This is my personal portfolio built as a single page application with React JS. 
   
 ## Description
-  This is a Single Page Application (SPA)
+  This is a Single Page Application \(SPA\) of my personal portfolio which includes:
+  -- About Me 
+  -- Portfolio \(projects with links to the sites as well as links to GitHub repostories\)
+  -- Say Hello \(with form to contact me\)
+  -- Resume \(includes a list of my current skills as well as a downloadable resume\)
 
 ## Screenshots of web application 
 
-![Screenshot of Personal Portfolio](./public/images/budget-tracker-screenshot.png)
+![Screenshot of Personal Portfolio About Me Page](./assets/images/screenshot-about-me.png)
+![Screenshot of Personal Portfolio Projects Page](./assets/images/screenshot-projects.png)
+![Screenshot of Personal Portfolio Say Hello Page](./assets/images/screenshot-contact.png)
+![Screenshot of Personal Portfolio Resume Page](./assets/images/screenshot-resume.png)
 
 ## Table of Contents
 

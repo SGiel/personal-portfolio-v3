@@ -320,7 +320,7 @@ footer {
   }
 
   .project-text {
-    color: var(--primary-color);
+    text-indent: 0px;
   }
 
   .project-text h3 {

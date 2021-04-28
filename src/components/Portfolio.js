@@ -24,20 +24,20 @@ function Portfolio() {
 
           <div className="col-12 col-md-6">
             <div className="row">
-              <Link to={'//coding-bootcamp-survival-guide.herokuapp.com/'} target='_blank' className="col-12">
+              <div className="col-12">
                 <div className="text-center" id="project-image-1">
                   <div className="project-image-wrapper">
                     <img className="img-fluid rounded" src={projectImage1}
                       alt='screenshot coding bootcamp survival guide homepage' />
                     <div className="project-text">
-                      <a href="https://github.com/Coding-Bootcamp-Survival-Guide"
+                      <Link to={"//github.com/Coding-Bootcamp-Survival-Guide"}
                         target="_blank"
                         rel="noreferrer"
                         className="fa fa-github mx-1"
                         style={{ color: 'black', fontSize: '2rem' }}
                         alt="personal link to Github"
                       >
-                      </a>
+                      </Link>
                       <Link to={'//coding-bootcamp-survival-guide.herokuapp.com/'} target='_blank' className="project-link" style={{ color: 'black' }}>
                         <h3>Coding Bootcamp Survival Guide</h3>
                       </Link>
@@ -45,21 +45,21 @@ function Portfolio() {
                     </div>
                   </div>
                 </div>
-              </Link>
-              <div to={'//sgiel.github.io/weather-dashboard/'} target='_blank' className="col-12">
+              </div>
+              <div className="col-12">
                 <div className="text-center" id="project-image-3">
                   <div className="project-image-wrapper">
                     <img className="img-fluid rounded" src={projectImage3}
                       alt="screenshot of Weather Dashboard home page with search bar for Paris filled out, current weather and 5-day forecast" />
                     <div className="project-text">
-                      <a href="https://github.com/SGiel/weather-dashboard"
+                      <Link to={"//github.com/SGiel/weather-dashboard"}
                         target="_blank"
                         rel="noreferrer"
                         className="fa fa-github mx-1"
                         style={{ color: 'black', fontSize: '2rem' }}
                         alt="personal link to Github"
                       >
-                      </a>
+                      </Link>
                       <Link to={'//sgiel.github.io/weather-dashboard/'} target='_blank' className="project-link" style={{ color: 'black' }}>
                         <h3>Weather Dashboard</h3>
                       </Link>
@@ -74,14 +74,14 @@ function Portfolio() {
                     <img className="img-fluid rounded" src={projectImage5}
                       alt='screenshot of Run-Buddy home page with tennis shoe being tied' />
                     <div className="project-text">
-                      <a href="https://github.com/SGiel/run-buddy"
+                      <Link to={"//github.com/SGiel/run-buddy"}
                         target="_blank"
                         rel="noreferrer"
                         className="fa fa-github mx-1"
                         style={{ color: 'black', fontSize: '2rem' }}
                         alt="personal link to Github"
                       >
-                      </a>
+                      </Link>
                       <Link to={'//sgiel.github.io/run-buddy/'} target='_blank' className="project-link" style={{ color: 'black' }}>
                         <h3>Run Buddy</h3>
                       </Link>
@@ -101,14 +101,14 @@ function Portfolio() {
                     <img className="img-fluid rounded" src={projectImage2}
                       alt='screenshot Visit America home page with search bar and banner of Grand Canyon' />
                     <div className="project-text">
-                      <a href="https://github.com/SGiel/visit-america"
+                      <Link to={"//github.com/SGiel/visit-america"}
                         target="_blank"
                         rel="noreferrer"
                         className="fa fa-github mx-1"
                         style={{ color: 'black', fontSize: '2rem' }}
                         alt="personal link to Github"
                       >
-                      </a>
+                      </Link>
                       <Link to={'//sgiel.github.io/visit-america/'} target='_blank' className="project-link" style={{ color: 'black' }}>
                         <h3>Visit America</h3>
                       </Link>
@@ -123,15 +123,14 @@ function Portfolio() {
                     <img className="img-fluid rounded" src={projectImage4}
                       alt='screenshot Workday Scheduler home page with list of workday events filled out' />
                     <div className="project-text">
-                      <a href="https://github.com/SGiel/workday-scheduler"
+                      <Link to={"//github.com/SGiel/workday-scheduler"}
                         target="_blank"
                         rel="noreferrer"
                         className="fa fa-github mx-1"
                         style={{ color: 'black', fontSize: '2rem' }}
                         alt="personal link to Github"
                       >
-                      </a>
-
+                      </Link>
                       <Link to={'//sgiel.github.io/workday-scheduler/'} target='_blank' className="project-link" style={{ color: 'black' }}>
 
                         <h3>Workday Scheduler</h3>
@@ -147,14 +146,14 @@ function Portfolio() {
                   <img className="img-fluid rounded" src={projectImage6}
                     alt='screenshot of Camper Van website including brown camper van with orange kayaks on top' />
                   <div className="project-text">
-                    <a href="https://github.com/SGiel/camper-van"
+                    <Link to={"//github.com/SGiel/camper-van"}
                       target="_blank"
                       rel="noreferrer"
                       className="fa fa-github mx-1"
                       style={{ color: 'black', fontSize: '2rem' }}
                       alt="personal link to Github"
                     >
-                    </a>
+                    </Link>
                     <Link to={'//sgiel.github.io/camper-van/'} target='_blank' className="project-link" style={{ color: 'black' }}>
                       <h3>Camper Van</h3>
                     </Link>
