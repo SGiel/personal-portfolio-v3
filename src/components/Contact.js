@@ -41,7 +41,7 @@ function ContactForm() {
   }
 
   return (
-    <section className="col-8" id="hello">
+    <section className="col-10" id="hello">
       <div className="hello-form">
         <div className="section-title">
           <h1>Say Hello</h1>

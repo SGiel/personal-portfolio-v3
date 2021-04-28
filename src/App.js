@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Nav from './components/Nav';
 import Namebar from './components/Namebar';
 import About from './components/About';
@@ -13,8 +13,8 @@ function App() {
   const [resumeSelected, setResumeSelected] = useState(false);
   const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
-    { name: 'About Me'},
-    { name: 'Portfolio'},
+    { name: 'About Me' },
+    { name: 'Portfolio' },
     { name: 'Say Hello' },
     { name: 'Resume' }
   ])
@@ -22,26 +22,26 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
-    <div style={{backgroundColor: 'rgba(247, 242, 242, 0.829)'}}>
-    {/* <body> */}
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        aboutSelected={aboutSelected}
-        setAboutSelected={setAboutSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
-      ></Nav>
+    <div style={{ backgroundColor: 'rgba(247, 242, 242, 0.829)' }}>
+      {/* <body> */}
       <main>
         <div className="container-fluid">
+          <Nav
+            categories={categories}
+            setCurrentCategory={setCurrentCategory}
+            currentCategory={currentCategory}
+            aboutSelected={aboutSelected}
+            setAboutSelected={setAboutSelected}
+            portfolioSelected={portfolioSelected}
+            setPortfolioSelected={setPortfolioSelected}
+            contactSelected={contactSelected}
+            setContactSelected={setContactSelected}
+            resumeSelected={resumeSelected}
+            setResumeSelected={setResumeSelected}
+          ></Nav>
           <div className="row" id="main-row">
             <Namebar></Namebar>
-            {aboutSelected && ( <About></About> )}
+            {aboutSelected && (<About></About>)}
             {portfolioSelected && <Portfolio></Portfolio>}
             {contactSelected && <ContactForm></ContactForm>}
             {resumeSelected && <Resume></Resume>}

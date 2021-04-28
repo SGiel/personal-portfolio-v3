@@ -15,7 +15,7 @@ import projectImage5 from '../assets/images/camper-van-screenshot.png'
 function Portfolio() {
   return (
     // This column holds 1 column with 1 row and inside 1 column with 1 row and 2 columns with 2 rows
-    <section className="col-8" id="projects">
+    <section className="col-10" id="projects">
       <Router>
         <h1>Portfolio</h1>
         <div className="row">

@@ -7,7 +7,7 @@ function Footer() {
     <footer className="container-fluid">
       <div className="row">
         <div className="col-2"></div>
-        <div className="col-8 justify-content-center" id="footer-col">
+        <div className="col-10 justify-content-center" id="footer-col">
           <p>Get in Touch &nbsp; &nbsp; ➖ &nbsp; &nbsp; </p>
           <div id="links">
             <a href="https://github.com/SGiel/" 

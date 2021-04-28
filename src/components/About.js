@@ -4,7 +4,7 @@ import personalImage from "../assets/images/stephanie-porfolio-pic.jpeg";
 function About() {
   return (
 
-    <section className="col-8" id="about-me">
+    <section className="col-10" id="about-me">
     <h1>About Me</h1>
 
     <div className="row justify-content-center" id="about-me-image">

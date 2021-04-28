@@ -20,8 +20,9 @@ function Nav(props) {
     }, [currentCategory]);
   return (
 
-    <nav className="navbar sticky-top navbar-expand-md navbar-dark" id="navbar">
-      <div className="collapse navbar-collapse" id="navbarNav">
+    <nav className="navbar sticky-top navbar-expand-md navbar-dark row" id="navbar">
+      <div className="col-2" id="main-row"></div>
+      <div className="collapse navbar-collapse col-10" id="navbarNav">
         <ul className="navbar-nav">
           <li className={`mx-1 nav-item ${aboutSelected && 'navActive'}`}>
             <span onClick={() => {

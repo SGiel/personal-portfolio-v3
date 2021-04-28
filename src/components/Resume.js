@@ -6,7 +6,7 @@ import resumePDF from '../assets/images/stephanie-resume.pdf'
 function Resume() {
   return (
 
-    <section className='col-8' id='skills'>
+    <section className='col-10' id='skills'>
       <h1>Skills</h1>
       <div className='row'>
         <div className='col-6' id='front-end'>
@@ -24,6 +24,7 @@ function Resume() {
           <ul>
             <li>Node.js</li>
             <li>MySQL</li>
+            <li>Express.js</li>
             <li>Sequelize</li>
             <li>Handlebars.js</li>
             <li>NoSQL</li>

@@ -286,6 +286,16 @@ footer {
 }
 /* end of styling footer */
 
+/* start of styling for media screen max-width of 360px */
+@media screen and (max-width:360px) {
+  
+  #skills h3 {
+      font-size: 24px;
+  }
+  
+}
+/* end of styling for media screen max-width of 360px */
+
 /* start of styling for media screen max-width of 600px */
 @media screen and (max-width:600px) {
   
@@ -299,7 +309,7 @@ footer {
   
   #project-image-1 img, #project-image-2 img, #project-image-3 img, #project-image-4 img, #project-image-5 img {
       height: 200px;
-  }
+    }
 }
 /* end of styling for media screen max-width of 600px */
 
