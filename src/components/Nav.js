@@ -24,7 +24,7 @@ function Nav(props) {
       <div className="col-2" id="main-row"></div>
       <div className="collapse navbar-collapse col-10" id="navbarNav">
         <ul className="navbar-nav">
-          <li className={`mx-1 nav-item ${aboutSelected && 'navActive'}`}>
+          <li className={`mx-3 nav-item ${aboutSelected && 'navActive'}`}>
             <span onClick={() => {
               setAboutSelected(true)
               setPortfolioSelected(false)
@@ -33,7 +33,7 @@ function Nav(props) {
             }}>
               About Me</span>
           </li>
-          <li className={`mx-2 nav-item ${portfolioSelected && 'navActive'}`}>
+          <li className={`mx-3 nav-item ${portfolioSelected && 'navActive'}`}>
             <span onClick={() => {
               setAboutSelected(false)
               setPortfolioSelected(true)
@@ -43,7 +43,7 @@ function Nav(props) {
               Portfolio</span>
           </li>
 
-          <li className={`mx-2 nav-item ${contactSelected && 'navActive'}`}>
+          <li className={`mx-3 nav-item ${contactSelected && 'navActive'}`}>
             <span onClick={() => {
               setAboutSelected(false)
               setPortfolioSelected(false)
@@ -52,7 +52,7 @@ function Nav(props) {
             }}>
               Say Hello</span>
           </li>
-          <li className={`mx-2 nav-item ${resumeSelected && 'navActive'}`}>
+          <li className={`mx-3 nav-item ${resumeSelected && 'navActive'}`}>
             <span onClick={() => {
               setAboutSelected(false)
               setPortfolioSelected(false)
