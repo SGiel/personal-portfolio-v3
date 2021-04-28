@@ -189,27 +189,23 @@ h1 {
 
 .project-text {
   position: absolute;
-  /* border: ridge 2px darkgray;
-  border-radius: 8px;
-  background-color: var(--tertiary-color); */
   text-align: center;
   top: 0px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   height: 300px;
-  color: transparent;
   width: 100%;
   padding-top: 100px;
   padding-bottom: 10px;
   font-weight: 1000;
-
+  text-indent: -9999px;
 }
 
 .project-text:hover {
-  color: var(--primary-color);
+  text-indent: 0px;
+  cursor: pointer;
 }
-
 /* end of styling project page */
 
 /* start of styling say-hello page */
