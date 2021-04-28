@@ -17,10 +17,10 @@
 
 ## Screenshots of web application 
 
-![Screenshot of Personal Portfolio About Me Page](./assets/images/screenshot-about-me.png)
-![Screenshot of Personal Portfolio Projects Page](./assets/images/screenshot-projects.png)
-![Screenshot of Personal Portfolio Say Hello Page](./assets/images/screenshot-contact.png)
-![Screenshot of Personal Portfolio Resume Page](./assets/images/screenshot-resume.png)
+![Screenshot of Personal Portfolio About Me Page](./src/assets/images/screenshot-about-me.png)
+![Screenshot of Personal Portfolio Projects Page](./src/assets/images/screenshot-projects.png)
+![Screenshot of Personal Portfolio Say Hello Page](./src/assets/images/screenshot-contact.png)
+![Screenshot of Personal Portfolio Resume Page](./src/assets/images/screenshot-resume.png)
 
 ## Table of Contents
 
