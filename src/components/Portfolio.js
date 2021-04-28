@@ -20,7 +20,7 @@ function Portfolio() {
         <h1>Portfolio</h1>
         <div className="row">
 
-          <Link to={'https://coding-bootcamp-survival-guide.herokuapp.com/'} target='_blank' className="col-12 col-lg-6">
+          <Link to={'//coding-bootcamp-survival-guide.herokuapp.com/'} target='_blank' className="col-12 col-lg-6">
 
             <div className="text-center" id="project-image-1">
               <img className="img-fluid rounded" src={projectImage1}
