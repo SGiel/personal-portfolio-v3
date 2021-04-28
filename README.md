@@ -26,6 +26,7 @@
 
 * [Installation](#installation)
 * [Usage](#usage)
+* [Link](#link)
 * [License](#license)
 
 * * *
@@ -38,19 +39,16 @@
 
 ## Usage
    This project utilizes Node.js, React, React Router, and Bootstrap. 
+
+## Link
+
+> [link to Stephanie' personal-portfolio-v3 webpage](https://sgiel.github.io/personal-portfolio-v3/)
  
 ## License  
   
-Licensed under the The MIT License (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+This application is covered under the MIT License. You may obtain a copy of the license at the link below:
 
 (https://opensource.org/licenses/MIT)
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
 
     
