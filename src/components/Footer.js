@@ -18,6 +18,13 @@ function Footer() {
               alt="personal link to Github"
               >
             </a>
+            <a href="https://www.linkedin.com/in/stephanie-giel-5a3ab61ba/" 
+              target="_blank" 
+              rel="noreferrer" 
+              className="fa fa-linkedin mx-1"
+              alt="personal link to Linkedin"
+              >
+            </a>
             <a href="https://www.facebook.com/stephanie.giel" 
               target="_blank" rel="noreferrer" 
               className="fa fa-facebook mx-1"
@@ -28,13 +35,6 @@ function Footer() {
               target="_blank" rel="noreferrer" 
               className="fa fa-instagram mx-1"
               alt="personal link to Instagram"
-              >
-            </a>
-            <a href="https://www.linkedin.com/in/stephanie-giel-5a3ab61ba/" 
-              target="_blank" 
-              rel="noreferrer" 
-              className="fa fa-linkedin mx-1"
-              alt="personal link to Linkedin"
               >
             </a>
           </div>

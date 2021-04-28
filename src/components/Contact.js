@@ -17,14 +17,14 @@ function ContactForm() {
       } else {
         setErrorMessage('');
       }
-    } else {
-      if (!e.target.value.length) {
+    }
+      if ((e.target.name === 'email' || e.target.name === 'name' || e.target.name === 'message') && !e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {
         setErrorMessage('');
       }
       // console.log('errorMessage', errorMessage);
-    }
+    
     // We use the spread operator, ...formState, so we can retain the other key-value pairs in this 
     //object. Without the spread operator, the formState object would be overwritten to only contain 
     // the name: value key pair.
@@ -51,16 +51,16 @@ function ContactForm() {
             <label htmlFor="name">Name:</label>
             {/* Used onBlur rather than onChange, because the onBlur attribute will fire the event once the 
           user has changed focus from the input field, */}
-            <input className="hello-fi" type="text" defaultValue={name} onBlur={handleChange} name="name" />
+            <input className="hello-fi" type="text" defaultValue={name} onMouseLeave={handleChange} name="name" />
           </div>
           <div>
             <label htmlFor="email">Email address:</label>
-            <input className="hello-fi" type="email" defaultValue={email} name="email" onBlur={handleChange} />
+            <input className="hello-fi" type="email" defaultValue={email} name="email" onMouseLeave={handleChange} />
           </div>
 
           <div>
             <label htmlFor="message">Message:</label>
-            <textarea className="hello-fi" name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+            <textarea className="hello-fi" name="message" defaultValue={message} onMouseLeave={handleChange} rows="5" />
           </div>
           {/* If errorMessage has a truthy value, the <div> block will render. */}
           {errorMessage && (
