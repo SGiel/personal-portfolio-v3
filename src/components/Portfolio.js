@@ -33,12 +33,11 @@ function Portfolio() {
                       <Link to={"//github.com/Coding-Bootcamp-Survival-Guide"}
                         target="_blank"
                         rel="noreferrer"
-                        className="fa fa-github mx-1"
-                        style={{ color: 'black', fontSize: '2rem' }}
+                        className="fa fa-github mx-1 git-link"
                         alt="personal link to Github"
                       >
                       </Link>
-                      <Link to={'//coding-bootcamp-survival-guide.herokuapp.com/'} target='_blank' className="project-link" style={{ color: 'black' }}>
+                      <Link to={'//coding-bootcamp-survival-guide.herokuapp.com/'} target='_blank' className="project-link">
                         <h3>Coding Bootcamp Survival Guide</h3>
                       </Link>
                       <h4>MySql/Sequelize/Handlebars</h4>
@@ -55,12 +54,11 @@ function Portfolio() {
                       <Link to={"//github.com/SGiel/weather-dashboard"}
                         target="_blank"
                         rel="noreferrer"
-                        className="fa fa-github mx-1"
-                        style={{ color: 'black', fontSize: '2rem' }}
+                        className="fa fa-github mx-1 git-link"
                         alt="personal link to Github"
                       >
                       </Link>
-                      <Link to={'//sgiel.github.io/weather-dashboard/'} target='_blank' className="project-link" style={{ color: 'black' }}>
+                      <Link to={'//sgiel.github.io/weather-dashboard/'} target='_blank' className="project-link">
                         <h3>Weather Dashboard</h3>
                       </Link>
                       <h4>JavaScript/APIs</h4>
@@ -77,12 +75,11 @@ function Portfolio() {
                       <Link to={"//github.com/SGiel/run-buddy"}
                         target="_blank"
                         rel="noreferrer"
-                        className="fa fa-github mx-1"
-                        style={{ color: 'black', fontSize: '2rem' }}
+                        className="fa fa-github mx-1 git-link"
                         alt="personal link to Github"
                       >
                       </Link>
-                      <Link to={'//sgiel.github.io/run-buddy/'} target='_blank' className="project-link" style={{ color: 'black' }}>
+                      <Link to={'//sgiel.github.io/run-buddy/'} target='_blank' className="project-link" >
                         <h3>Run Buddy</h3>
                       </Link>
                       <h4>HTML/CSS</h4>
@@ -104,12 +101,11 @@ function Portfolio() {
                       <Link to={"//github.com/SGiel/visit-america"}
                         target="_blank"
                         rel="noreferrer"
-                        className="fa fa-github mx-1"
-                        style={{ color: 'black', fontSize: '2rem' }}
+                        className="fa fa-github mx-1 git-link"
                         alt="personal link to Github"
                       >
                       </Link>
-                      <Link to={'//sgiel.github.io/visit-america/'} target='_blank' className="project-link" style={{ color: 'black' }}>
+                      <Link to={'//sgiel.github.io/visit-america/'} target='_blank' className="project-link" >
                         <h3>Visit America</h3>
                       </Link>
                       <h4>JS/Apis/Materialize</h4>
@@ -126,12 +122,11 @@ function Portfolio() {
                       <Link to={"//github.com/SGiel/workday-scheduler"}
                         target="_blank"
                         rel="noreferrer"
-                        className="fa fa-github mx-1"
-                        style={{ color: 'black', fontSize: '2rem' }}
+                        className="fa fa-github mx-1 git-link"
                         alt="personal link to Github"
                       >
                       </Link>
-                      <Link to={'//sgiel.github.io/workday-scheduler/'} target='_blank' className="project-link" style={{ color: 'black' }}>
+                      <Link to={'//sgiel.github.io/workday-scheduler/'} target='_blank' className="project-link" >
 
                         <h3>Workday Scheduler</h3>
                       </Link>
@@ -149,12 +144,11 @@ function Portfolio() {
                     <Link to={"//github.com/SGiel/camper-van"}
                       target="_blank"
                       rel="noreferrer"
-                      className="fa fa-github mx-1"
-                      style={{ color: 'black', fontSize: '2rem' }}
+                      className="fa fa-github mx-1 git-link"
                       alt="personal link to Github"
                     >
                     </Link>
-                    <Link to={'//sgiel.github.io/camper-van/'} target='_blank' className="project-link" style={{ color: 'black' }}>
+                    <Link to={'//sgiel.github.io/camper-van/'} target='_blank' className="project-link" >
                       <h3>Camper Van</h3>
                     </Link>
                     <h4>HTML/CSS/Javascript</h4>

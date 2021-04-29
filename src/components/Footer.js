@@ -8,7 +8,7 @@ function Footer() {
       <div className="row">
         <div className="col-2"></div>
         <div className="col-10 justify-content-center" id="footer-col">
-          <p>Get in Touch &nbsp; &nbsp; ➖ &nbsp; &nbsp; </p>
+          <p>Get in Touch  </p>
           <div id="links">
             <a href="https://github.com/SGiel/" 
               target="_blank" 
