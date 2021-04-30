@@ -1,9 +1,17 @@
 
-import React from 'react';
+import { useState } from 'react';
 import Project from './Project';
-
+import projectData from './projects.json'
 
 function Portfolio() {
+
+  const [projects] = useState(projectData);
+
+  // filter through projects to find the projects specified ids
+  const projectList= (startId, stopId) => {
+    return projects.filter((project) =>
+    (parseInt(project.id) >= startId && parseInt(project.id) <= stopId));
+  };
 
 
   return (
@@ -11,23 +19,34 @@ function Portfolio() {
     <section className="col-10" id="projects">
       <h1>Portfolio</h1>
       <div className="row">
+        {projectList(1,3).map((project,i) => (
 
-        <div className="col-12 col-md-6">
-          <div className="row">
-            <Project startId={1}
-              stopId={3}
-            />
-
+          <div className="col-12 col-md-6" key={i}>
+            <div className="row">
+              <div className="col-12">
+                <div className="text-center">
+                  <div className="project-image-wrapper" >
+                    <Project project={project}></Project>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="col-12 col-md-6">
-          <div className="row">
-            <Project startId={4}
-              stopId={6}
-            />
+        ))}
+        {projectList(4,6).map((project,i) => (
 
+          <div className="col-12 col-md-6" key={i}>
+            <div className="row">
+              <div className="col-12">
+                <div className="text-center">
+                  <div className="project-image-wrapper" >
+                  <Project project={project}></Project>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        ))}
 
       </div>
     </section>

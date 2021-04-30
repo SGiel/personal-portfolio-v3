@@ -2,9 +2,7 @@ import React, { useEffect } from 'react';
 
 function Nav(props) {
   const {
-    categories = [],
     currentCategory,
-    setCurrentCategory,
     aboutSelected,
     setAboutSelected,
     portfolioSelected,
