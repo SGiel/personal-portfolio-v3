@@ -35,7 +35,7 @@ const Project = ({ project }) => {
         </Link>
         <h4>{project.skills}</h4>
       </div>
-\    </Router>
+    </Router>
 
   )
 }
