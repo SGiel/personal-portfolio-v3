@@ -23,14 +23,14 @@
 
   },
   {
-    "name": "Run Buddy",
-    "image": "run-buddy-screenshot.png",
-    "imageAlt": "screenshot of Run-Buddy home page with tennis shoe being tied",
-    "githubLink": "//github.com/SGiel/run-buddy",
-    "githubLinkAlt": "Run Buddy github repository",
-    "siteLink": "//sgiel.github.io/run-buddy/",
-    "siteLinkAlt": "Run Buddy live application",
-    "skills": "HTML/CSS",
+    "name": "Portfolio Generator",
+    "image": "portfolio-generator-screenshot.png",
+    "imageAlt": "screenshot of Portfolio Generator home page with sample portfolio for doggie, Ajax",
+    "githubLink": "//github.com/Portfolio-Generator/Portfolio-Generator",
+    "githubLinkAlt": "Portfolio Generator github repository",
+    "siteLink": "//dksv-portfolio-generator.herokuapp.com/",
+    "siteLinkAlt": "Portfolio Generator live application",
+    "skills": "React, Apollo GraphQL, JSX",
     "id": "3"
   },
   {
