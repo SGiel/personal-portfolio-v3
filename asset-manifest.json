@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/personal-portfolio-v3/static/css/main.2df3e12a.chunk.css",
-    "main.js": "/personal-portfolio-v3/static/js/main.c8a3a983.chunk.js",
-    "main.js.map": "/personal-portfolio-v3/static/js/main.c8a3a983.chunk.js.map",
-    "runtime-main.js": "/personal-portfolio-v3/static/js/runtime-main.f4dd8ba7.js",
-    "runtime-main.js.map": "/personal-portfolio-v3/static/js/runtime-main.f4dd8ba7.js.map",
+    "main.js": "/personal-portfolio-v3/static/js/main.5c60eeef.chunk.js",
+    "main.js.map": "/personal-portfolio-v3/static/js/main.5c60eeef.chunk.js.map",
+    "runtime-main.js": "/personal-portfolio-v3/static/js/runtime-main.4e20a70c.js",
+    "runtime-main.js.map": "/personal-portfolio-v3/static/js/runtime-main.4e20a70c.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/personal-portfolio-v3/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ea6c8109.chunk.js": "/personal-portfolio-v3/static/js/2.ea6c8109.chunk.js",
-    "static/js/2.ea6c8109.chunk.js.map": "/personal-portfolio-v3/static/js/2.ea6c8109.chunk.js.map",
-    "static/js/3.ee1f5593.chunk.js": "/personal-portfolio-v3/static/js/3.ee1f5593.chunk.js",
-    "static/js/3.ee1f5593.chunk.js.map": "/personal-portfolio-v3/static/js/3.ee1f5593.chunk.js.map",
+    "static/js/2.a1d357f0.chunk.js": "/personal-portfolio-v3/static/js/2.a1d357f0.chunk.js",
+    "static/js/2.a1d357f0.chunk.js.map": "/personal-portfolio-v3/static/js/2.a1d357f0.chunk.js.map",
+    "static/js/3.3d18d50c.chunk.js": "/personal-portfolio-v3/static/js/3.3d18d50c.chunk.js",
+    "static/js/3.3d18d50c.chunk.js.map": "/personal-portfolio-v3/static/js/3.3d18d50c.chunk.js.map",
     "index.html": "/personal-portfolio-v3/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/personal-portfolio-v3/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.2df3e12a.chunk.css.map": "/personal-portfolio-v3/static/css/main.2df3e12a.chunk.css.map",
-    "static/js/2.ea6c8109.chunk.js.LICENSE.txt": "/personal-portfolio-v3/static/js/2.ea6c8109.chunk.js.LICENSE.txt",
+    "static/js/2.a1d357f0.chunk.js.LICENSE.txt": "/personal-portfolio-v3/static/js/2.a1d357f0.chunk.js.LICENSE.txt",
     "static/media/annie-spratt-gSQbip5HHuc-unsplash.jpg": "/personal-portfolio-v3/static/media/annie-spratt-gSQbip5HHuc-unsplash.75ba7b5f.jpg",
     "static/media/bootcamp-survival-guide-screenshot.png": "/personal-portfolio-v3/static/media/bootcamp-survival-guide-screenshot.80d966ce.png",
     "static/media/camper-van-screenshot.png": "/personal-portfolio-v3/static/media/camper-van-screenshot.9668ee0d.png",
+    "static/media/portfolio-generator-screenshot.png": "/personal-portfolio-v3/static/media/portfolio-generator-screenshot.b0996180.png",
     "static/media/run-buddy-screenshot.png": "/personal-portfolio-v3/static/media/run-buddy-screenshot.272c8824.png",
     "static/media/screenshot-about-me.png": "/personal-portfolio-v3/static/media/screenshot-about-me.f1a61597.png",
     "static/media/screenshot-contact.png": "/personal-portfolio-v3/static/media/screenshot-contact.5403dc4b.png",
@@ -29,10 +30,10 @@
     "static/media/workday-scheduler-screenshot.png": "/personal-portfolio-v3/static/media/workday-scheduler-screenshot.67ac50ec.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4dd8ba7.js",
+    "static/js/runtime-main.4e20a70c.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.ea6c8109.chunk.js",
+    "static/js/2.a1d357f0.chunk.js",
     "static/css/main.2df3e12a.chunk.css",
-    "static/js/main.c8a3a983.chunk.js"
+    "static/js/main.5c60eeef.chunk.js"
   ]
 }
